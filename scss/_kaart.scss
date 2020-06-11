@@ -1,0 +1,37 @@
+.kaartInfo {
+margin-left: 3em;
+  margin-bottom:1em ;
+}
+.kaartTitel{
+  margin-left: 1.2em;
+  font-size: 50px;
+}
+.kaartInfo i{
+  padding: .5em;
+  font-size: 40px;
+}
+.stoppunten{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: -3em;
+}
+.cardKaart{
+  padding: .5em;
+  text-align: center;
+  border-radius: 10px;
+  resize: vertical;
+  border-bottom: 1em solid saddlebrown;
+  border-top: 1em solid saddlebrown ;
+  border-left: .2em solid saddlebrown;
+  border-right: .2em solid saddlebrown;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+  margin: 6em;
+
+}
+#dora2{
+  margin-left: 17em;
+  margin-top: 5em;
+}
