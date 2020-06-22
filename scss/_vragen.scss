@@ -1,0 +1,19 @@
+.vragen{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 2em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  padding: 2em;
+}
+#vragenTitel{
+  margin-left: 3em;
+}
+#prijs{
+  margin-top: 3em;
+}
+#geld{
+ margin-left: 4.8em;
+  font-size: 40px;
+  color: palevioletred;
+}

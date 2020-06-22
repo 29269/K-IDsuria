@@ -1,0 +1,50 @@
+nav {
+  background-color: #cf9e9a;
+  color: #FFCC00;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  height: 80vh;
+  transition: left .5s ease-in-out;
+  margin-top: 66px;
+  /* display: grid;
+  grid-template-columns: 1fr auto; */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: black;
+  font-size: 1.2em;
+  padding: 1em 2em;
+  display: block;
+  text-decoration: none;
+  /* border-bottom: 1px solid #CCADFF;
+  border-bottom: 20%; */
+}
+
+nav a.actief {
+  padding: 1em 1.3em;
+  border-left: .7em solid saddlebrown;
+}
+
+#menu-schuiver:checked~nav {
+  left: 100vw;
+}
+
+#menu-schuiver {
+  display: none;
+}
+
+label.haal-menu {
+  font-size: 2em;
+  padding: .8rem 2rem;
+  display: block;
+  border-bottom: 2px solid saddlebrown;
+  text-align: right;
+}

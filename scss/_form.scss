@@ -1,0 +1,68 @@
+.cardFrom{
+  margin: .5em;
+  margin-top: 4em;
+  padding: .5em;
+  text-align: center;
+  border-radius: 10px;
+  resize: vertical;
+  border-bottom: 1em solid saddlebrown;
+  border-top: 1em solid saddlebrown ;
+  border-left: .2em solid saddlebrown;
+  border-right: .2em solid saddlebrown;
+  font-size: 15px;
+  background-color: white;
+  width: 90%;
+  margin-bottom: 4em;
+}
+
+.logenreg {
+  width: 85%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  //border-radius: 30px;
+  //resize: vertical;
+  margin: 1em;
+  margin-top: -.1em;
+  margin-left: -.12em;
+}
+
+label {
+  text-align: left;
+
+  display: inline-block;
+}
+label em{
+  //margin-left: 1.7em;
+
+}
+#login{
+  background-color: green;
+  color: green;
+}
+#terug{
+  background-color: red;
+  color: red;
+}
+.cardFromRG{
+  margin: .5em;
+  margin-top: 4em;
+  padding: .5em;
+  text-align: center;
+  border-radius: 10px;
+  resize: vertical;
+  border-bottom: 1em solid saddlebrown;
+  border-top: 1em solid saddlebrown ;
+  border-left: .2em solid saddlebrown;
+  border-right: .2em solid saddlebrown;
+  font-size: 15px;
+  background-color: white;
+  width: 90%;
+  margin-bottom: 4em;
+}
+.ww{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-right: 1em;
+}
+
